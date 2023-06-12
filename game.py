@@ -1,8 +1,9 @@
 #Import Python Module - Generates a Random Number
 import random 
 
-#Use Random Module To Generate No. Between 1-10, Store in Variable Number.
-number = random.randint(1, 10)
+# Create a function to create a random number between 1 and 10
+def guess_number():
+    number = random.randint(1, 10)
 
 #Players Details
 player_name = input("Hello, What's your name?")
